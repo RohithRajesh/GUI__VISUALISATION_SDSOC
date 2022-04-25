@@ -1,15 +1,15 @@
 # GUI__VISUALISATION_SDSOC
-Minimal GGUI for real-time visualisation of outputs generated from Hardware connected to a host machine. Part of B-tech project. \\
+Minimal GGUI for real-time visualisation of outputs generated from Hardware connected to a host machine. Part of B-tech project.  
 
 Requirements
   1. Host machine with python (>=3.6 with matplotlib,numpy,PIL, tkinter)
   2. 7 series board compatible of running linux (use ZC706 if you want to test with the given baord files )
 
-Steps to run the GUI \\
+Steps to run the GUI  
 Board setup : Connect board to a host machine via Ethernet and UART. 
   1. Set an ip to the board by  doing "ifconfig eth0 192.168.0.10" (This can be done by booting linux on the board and sending the command through UART)
   2. Check if you can ping the board at this IP from your host machine's cmd.
-  3. The code is written for a windows host machine. For a linux machine, replacing 'pscp' to 'scp' in the mod_display.py should work. \n
+  3. The code is written for a windows host machine. For a linux machine, replacing 'pscp' to 'scp' in the mod_display.py should work.  
   
 Board Side
 1. Make sure the board can linux running on it. (tested config : ZC706 with petalinux)
@@ -17,7 +17,7 @@ Board Side
 3. Set ip to the board "ifconfig eth0 192.168.0.10"
 4. cd /mnt
 5. ./preprocess.elf
-Host side \\
+Host side  
 6. Open cmd and run 'python mod_display.py'
 7. Press Start to start collecting data.
 
