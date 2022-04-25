@@ -16,7 +16,7 @@ Board Side
 2. Copy the files in the "Board Files" folder to an sd-card.ALong with that, add the weights file, and the Dataset(Set-1 or Set-2) to the sd_card. Plug the sd-card and start.
 3. Set ip to the board "ifconfig eth0 192.168.0.10"
 4. cd /mnt
-5. ./preprocess.elf
+5. ./preprocess.elf  
 Host side  
 6. Open cmd and run 'python mod_display.py'
 7. Press Start to start collecting data.
