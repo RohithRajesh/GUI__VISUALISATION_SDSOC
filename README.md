@@ -9,7 +9,7 @@ Steps to run the GUI \\
 Board setup : Connect board to a host machine via Ethernet and UART. 
   1. Set an ip to the board by  doing "ifconfig eth0 192.168.0.10" (This can be done by booting linux on the board and sending the command through UART)
   2. Check if you can ping the board at this IP from your host machine's cmd.
-  3. The code is written for a windows host machine. For a linux machine, replacing 'pscp' to 'scp' in the mod_display.py should work. \\
+  3. The code is written for a windows host machine. For a linux machine, replacing 'pscp' to 'scp' in the mod_display.py should work. \n
   
 Board Side
 1. Make sure the board can linux running on it. (tested config : ZC706 with petalinux)
