@@ -17,6 +17,7 @@ Board Side
 3. Set ip to the board "ifconfig eth0 192.168.0.10"
 4. cd /mnt
 5. ./preprocess.elf  
+
 Host side  
 6. Open cmd and run 'python mod_display.py'
 7. Press Start to start collecting data.
