@@ -19,7 +19,7 @@ Board Side
 5. ./preprocess.elf  
 
 Host side  
-6. Open cmd and run 'python mod_display.py'
+6. Open cmd and run 'python mod_display.py'  
 7. Press Start to start collecting data.
 
 Dataset to copy to sd-card for testing + trained weights can be found in :
