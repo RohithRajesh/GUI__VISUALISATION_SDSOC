@@ -27,12 +27,12 @@ Dataset to copy to sd-card for testing + trained weights can be found in :
 https://drive.google.com/drive/folders/1flzs1jIbuw9Pihx-LV9laus2SOMgN1Br?usp=sharing
 
 
-Steps for Modifications based on individual use case
+Steps for Modifications based on individual use case  
   -In our SdSoC or SDK project, write code to save the result(real time accuracy, predictions etc) on a file on the sd card. Can be easily done in c/c++
   - make sure new predictions are printed in separate line . Best idea will be to overwrite the existing file for each testcase(to not have very large file on sd card)
 
-In mod_display.py modify the variables such that it reads whetever you are writing. Then modify the plotting areas as per your requirement.
-change the time delay in win.after() to be of the same order as your run-time(1000ms in my case) to not skip any new predictions.
+In mod_display.py modify the variables such that it reads whetever you are writing. Then modify the plotting areas as per your requirement.  
+change the time delay in win.after() to be of the same order as your run-time(1000ms in my case) to not skip any new predictions.  
 
 
 You can modify this code to visualize whatever type of data you want while keeping the overall framework intact.
